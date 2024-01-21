@@ -26,6 +26,9 @@ if not status then
 	return
 end
 
+vim.cmd("highlight Cursor guibg=#9fcfa1 guifg=#000000 ctermbg=White")
+vim.cmd("highlight CursorLine guibg=none guifg=none ctermbg=White")
+
 -- add list of plugins to install
 return packer.startup(function(use)
 	-- packer can manage itself
@@ -33,8 +36,8 @@ return packer.startup(function(use)
 
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
-
+	--	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
+	use("ellisonleao/gruvbox.nvim")
 	use("christoomey/vim-tmux-navigator")
 
 	use("szw/vim-maximizer")
