@@ -82,8 +82,8 @@ return packer.startup(function(use)
 	use("onsails/lspkind.nvim") -- vscode icons  in autocomplete
 
 	--linting formatting
-	use("jose-elias-alvarez/null-ls.nvim")
-	use("jayp0521/mason-null-ls.nvim")
+  use("jose-elias-alvarez/null-ls.nvim")
+ 	use("jayp0521/mason-null-ls.nvim")
 
 	-- treesiter
 	use({
