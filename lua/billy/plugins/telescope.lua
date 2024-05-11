@@ -17,9 +17,6 @@ telescope.setup({
 				["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist,
 			},
 		},
-		vimgrep_arguments = {
-			"--hidden",
-		},
 	},
 })
 
