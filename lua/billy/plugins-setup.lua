@@ -88,6 +88,7 @@ return packer.startup(function(use)
 	use("Exafunction/codeium.vim")
 
 	-- treesiter
+	use("BurntSushi/ripgrep")
 	use({
 		"nvim-treesitter/nvim-treesitter",
 		run = function()
